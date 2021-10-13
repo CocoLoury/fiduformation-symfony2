@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+
+$yellowDegeu: yellow; 
+
+body {
+    background-color: lightgray;
+
+    table {
+        background-color: $yellowDegeu;
+
+        &.table {
+            border: 3px dotted #00aaff;
+        }
+    }
+}
